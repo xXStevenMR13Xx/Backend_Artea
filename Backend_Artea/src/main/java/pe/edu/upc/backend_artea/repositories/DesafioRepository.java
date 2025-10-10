@@ -10,6 +10,7 @@ import java.util.List;
 
 @Repository
 public interface DesafioRepository extends JpaRepository<Desafio, Long> {
+    long countByDificultad_Id(Integer dificultadId);
 
     // Buscar desafíos de una categoría (Method query)
     List<Desafio> findByCategoria_IdCategoria(Long idCategoria);
