@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import java.util.List;
 
 @Entity
-@Table(name="categorias")
+@Table(name="categoria")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -18,7 +18,6 @@ public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_categoria;
-
     private String nombre_categoria;
 
     @JsonIgnore
