@@ -25,7 +25,4 @@ public class User {
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "usuario_id") //"idUsuario"
     private List<Rol> roles;
-
-
-
 }
