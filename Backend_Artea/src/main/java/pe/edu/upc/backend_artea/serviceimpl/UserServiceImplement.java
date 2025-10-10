@@ -13,19 +13,19 @@ public class UserServiceImplement implements UserService {
     @Autowired
     private UserRepository uR;
 
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+    /*@Autowired
+    private PasswordEncoder passwordEncoder;*/
 
     @Override
     public List<User> list(){
         return uR.findAll();
     }
 
-    @Override
+    /*@Override
     public void insert(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword())); // ← ESTA LÍNEA ES CLAVE
         uR.save(user);
-    }
+    }*/
 
     @Override
     public void update(User user) {
