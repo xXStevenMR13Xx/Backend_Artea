@@ -11,12 +11,6 @@ import java.util.Optional;
 
 @Repository
 public interface RolRepository extends JpaRepository<Rol, Long> {
-    // conteo de usuarios por rol (NATIVO)
-    //@Query(value = "SELECT r.rol, COUNT(u.id) AS total_usuarios\n" +
-    //        "FROM rol r\n" +
-    //        "JOIN usuario u ON r.id_usuario = u.id\n" +
-    //        "GROUP BY r.rol;", nativeQuery = true)
-    //List<String[]> quantityUserByRol();
 
     @Query("SELECT r FROM Rol r WHERE r.id = :id")
     Optional<Rol> findRolById(@Param("id") Long id);
@@ -28,4 +22,12 @@ public interface RolRepository extends JpaRepository<Rol, Long> {
             "GROUP BY r.rol",
             nativeQuery = true)
     List<Object[]> countUsersByRole();
+    
+    // conteo de usuarios por rol (NATIVO)
+    //@Query(value = "SELECT r.rol, COUNT(u.id) AS total_usuarios\n" +
+    //        "FROM rol r\n" +
+    //        "JOIN usuario u ON r.id_usuario = u.id\n" +
+    //        "GROUP BY r.rol;", nativeQuery = true)
+    //List<String[]> quantityUserByRol();
+
 }
