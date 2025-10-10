@@ -23,6 +23,5 @@ public class Categoria {
 
     @JsonIgnore
     @OneToMany(mappedBy = "categoria", fetch = FetchType.EAGER)
-
     private List<Desafio> desafios;
 }

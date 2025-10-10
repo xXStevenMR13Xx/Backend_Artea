@@ -10,9 +10,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import pe.edu.upc.backend_artea.entities.User;
 import pe.edu.upc.backend_artea.repositories.UserRepository;
-import pe.edu.upc.pts.entities.Usuario;
-import pe.edu.upc.pts.repositories.IUsuarioRepository;
-
 import java.util.ArrayList;
 import java.util.List;
 

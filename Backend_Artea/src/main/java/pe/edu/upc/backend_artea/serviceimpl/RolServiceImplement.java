@@ -38,8 +38,9 @@ public class RolServiceImplement implements RolService {
     }
 
     @Override
-    public Rol findById(Long id) {
+    public Rol findRolById(Long id) {
         return rR.findRolById(id)
                 .orElseThrow(() -> new RuntimeException("Rol no encontrado"));
     }
+
 }

@@ -1,6 +1,5 @@
 package pe.edu.upc.backend_artea.controllers;
 
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -12,10 +11,10 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import pe.edu.upc.pts.securities.JwtRequest;
-import pe.edu.upc.pts.securities.JwtResponse;
-import pe.edu.upc.pts.securities.JwtTokenUtil;
-import pe.edu.upc.pts.serviceImplements.JwtUserDetailsService;
+import pe.edu.upc.backend_artea.securities.JwtRequest;
+import pe.edu.upc.backend_artea.securities.JwtResponse;
+import pe.edu.upc.backend_artea.securities.JwtTokenUtil;
+import pe.edu.upc.backend_artea.serviceimpl.JwtUserDetailsService;
 
 //Clase 3
 @RestController
