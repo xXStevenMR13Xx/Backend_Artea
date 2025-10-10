@@ -18,6 +18,7 @@ public class Categoria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_categoria;
+
     private String nombre_categoria;
 
     @JsonIgnore

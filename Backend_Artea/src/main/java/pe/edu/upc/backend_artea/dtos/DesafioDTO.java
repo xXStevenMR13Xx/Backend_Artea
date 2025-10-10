@@ -13,7 +13,6 @@ import java.util.List;
 @AllArgsConstructor
 
 public class DesafioDTO {
-
     private Long id_desafio;
     private String nombre_desafio;
     private String tipo_desafio;
@@ -21,6 +20,5 @@ public class DesafioDTO {
     private Integer max_intentos;
     private LocalDate fecha_inicio;
     private LocalDate fecha_fin;
-
     private List<Categoria> categorias;
 }
