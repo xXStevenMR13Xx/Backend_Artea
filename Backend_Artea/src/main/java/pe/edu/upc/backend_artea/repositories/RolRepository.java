@@ -21,8 +21,8 @@ public interface RolRepository extends JpaRepository<Rol, Long> {
             "JOIN usuario u ON r.usuario_id = u.id " +
             "GROUP BY r.rol",
             nativeQuery = true)
-    List<Object[]> countUsersByRole();
-    
+    List<Object[]> quantityUserByRol();
+
     // conteo de usuarios por rol (NATIVO)
     //@Query(value = "SELECT r.rol, COUNT(u.id) AS total_usuarios\n" +
     //        "FROM rol r\n" +
