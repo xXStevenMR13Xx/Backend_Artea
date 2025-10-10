@@ -5,8 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e647b1-ed2c-4ac2-801d-58907e9b134c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/controllers/JwtAuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/securities/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/securities/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/securities/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/securities/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/securities/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/securities/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/securities/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/JwtUserDetailsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/RolServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/RolServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/UserServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/UserServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/backend_artea/entities/Categoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/backend_artea/entities/Creacion$CreacionBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/backend_artea/entities/Creacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/backend_artea/entities/Desafio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/backend_artea/entities/Dificultad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/backend_artea/entities/Jugador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/backend_artea/entities/Rol.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/backend_artea/entities/User.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +56,12 @@
     &quot;assignee&quot;: &quot;KiaraHuallaMar&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/xXStevenMR13Xx/Backend_Artea.git",
-    "accountId": "bccdc2a7-6403-4afd-8f47-880d069e2c13"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/xXStevenMR13Xx/Backend_Artea.git&quot;,
+    &quot;accountId&quot;: &quot;bccdc2a7-6403-4afd-8f47-880d069e2c13&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -63,10 +84,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BackendArteaApplication.executor": "Run",
-    "git-widget-placeholder": "#2 on Steven",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Proyectos_ArquiWeb/2025 - 02/Backend_ArquiWeb/Backend_Artea/Backend_Artea",
+    "last_opened_file_path": "D:/Proyectos_ArquiWeb/2025 - 02/Backend_ArquiWeb/Backend_Artea/Backend_Artea/src/main/java/pe/edu/upc/backend_artea",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,23 +101,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\src\main\java\pe\edu\upc\backend_artea" />
       <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea" />
       <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\target" />
       <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\src" />
       <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\src\main" />
-      <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pe.edu.upc.backend_artea.serviceimpl" />
+      <recent name="pe.edu.upc.backend_artea.controllers" />
       <recent name="pe.edu.upc.backend_artea" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Backend_Artea" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BackendArteaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="Backend_Artea" />

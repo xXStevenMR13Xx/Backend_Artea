@@ -27,7 +27,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     // contar cuantos usuarios tiene cada rol (NATIVO)
     //@Query(value = "SELECT r.rol AS Rol, COUNT(*) AS QuantityUsers " +
-    //        "FROM rol r INNER JOIN usuario u " +
+    //        "FROM rol r INNER JOIN usuario u " +securities
     //        "ON r.id_usuario = u.id " +
     //        "GROUP BY r.rol", nativeQuery = true)
     //List<String[]> QuantityUsuarioByRol();

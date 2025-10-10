@@ -1,6 +1,6 @@
 package pe.edu.upc.backend_artea.serviceimpl;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import pe.edu.upc.backend_artea.entities.User;
 import pe.edu.upc.backend_artea.repositories.UserRepository;
@@ -13,19 +13,19 @@ public class UserServiceImplement implements UserService {
     @Autowired
     private UserRepository uR;
 
-    /*@Autowired
-    private PasswordEncoder passwordEncoder;*/
+    @Autowired
+    private PasswordEncoder passwordEncoder;
 
     @Override
     public List<User> list(){
         return uR.findAll();
     }
 
-    /*@Override
+    @Override
     public void insert(User user) {
         user.setPassword(passwordEncoder.encode(user.getPassword())); // ← ESTA LÍNEA ES CLAVE
         uR.save(user);
-    }*/
+    }
 
     @Override
     public void update(User user) {
