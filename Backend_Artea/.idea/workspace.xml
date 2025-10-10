@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e647b1-ed2c-4ac2-801d-58907e9b134c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Backend_Artea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/controllers/CreacionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/controllers/DificultadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/controllers/JugadorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/dtos/CreacionCreateUpdateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/dtos/CreacionDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/dtos/DificultadCreateUpdateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/dtos/DificultadDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/dtos/JugadorCreateUpdateDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/dtos/JugadorDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/entities/Creacion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/entities/Dificultad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/entities/Jugador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/repositories/CreacionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/repositories/DificultadRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/repositories/JugadorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/CreacionServiceImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/DificultadServiceImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/JugadorServiceImplement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/services/CreacionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/services/DificultadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/services/JugadorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/repositories/DesafioRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/repositories/DesafioRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/UserServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/backend_artea/serviceimpl/UserServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,21 +66,22 @@
     "git-widget-placeholder": "#2 on Steven",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Steven/Desktop/Backend_Artea/Backend_Artea",
+    "last_opened_file_path": "D:/Proyectos_ArquiWeb/2025 - 02/Backend_ArquiWeb/Backend_Artea/Backend_Artea",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
+    "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea" />
+      <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\target" />
       <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\src" />
       <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\src\main" />
       <recent name="D:\Proyectos_ArquiWeb\2025 - 02\Backend_ArquiWeb\Backend_Artea\Backend_Artea\src\main\resources" />
@@ -151,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1759646268585</updated>
       <workItem from="1759646269767" duration="1322000" />
-      <workItem from="1760071313537" duration="13191000" />
+      <workItem from="1760071313537" duration="13516000" />
+      <workItem from="1760127109343" duration="756000" />
     </task>
     <servers />
   </component>
