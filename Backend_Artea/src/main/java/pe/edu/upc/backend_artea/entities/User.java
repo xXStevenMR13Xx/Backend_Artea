@@ -1,5 +1,4 @@
 package pe.edu.upc.backend_artea.entities;
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,4 +24,12 @@ public class User {
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "usuario_id") //"idUsuario"
     private List<Rol> roles;
+
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "usuario_id") //"idUsuario"
+    private List<Notificacion> notificacions;
+
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_id")
+    private Jugador jugadores;
 }

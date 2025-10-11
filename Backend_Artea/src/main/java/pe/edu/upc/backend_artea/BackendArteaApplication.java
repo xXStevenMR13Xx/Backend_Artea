@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-public class Backend_ArteaApplication {
+public class BackendArteaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Backend_ArteaApplication.class, args);
+        SpringApplication.run(BackendArteaApplication.class, args);
     }
 
 }

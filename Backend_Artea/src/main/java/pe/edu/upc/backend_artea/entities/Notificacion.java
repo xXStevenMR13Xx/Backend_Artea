@@ -5,24 +5,23 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.util.List;
+
+import java.time.LocalDate;
 
 @Entity
-@Table(name = "gamificacion")
+@Table(name = "notificacion")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Gamificacion {
+public class Notificacion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id_gamificacion;
-
-    private Integer racha_dias;
-
-    @Column(length = 1000)
-    private String notificacion;
+    private Long id_notificacion;
+    private String descripcion;
+    private String tipo_notificacion;
 
     @JsonIgnore
-    @OneToOne(mappedBy = "gamificacion")
-    private ProgresoDesafio progresos;
+    @ManyToOne
+    @JoinColumn(name="user_id")
+    private User user;
 }

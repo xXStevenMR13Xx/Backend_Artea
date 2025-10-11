@@ -56,7 +56,7 @@ public class UserController {
 
     @DeleteMapping("/{id}")
     //@PreAuthorize("hasAnyAuthority('ADMINISTRADOR', 'TURISTA', 'CONDUCTOR')")
-    public void eliminar(@PathVariable("id") Integer id){
+    public void eliminar(@PathVariable("id") Long id){
         uS.delete(id);
     }
 

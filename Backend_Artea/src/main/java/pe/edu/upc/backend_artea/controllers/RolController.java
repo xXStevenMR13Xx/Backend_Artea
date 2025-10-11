@@ -46,7 +46,7 @@ public class RolController {
 
     @DeleteMapping("/{id}")
     //@PreAuthorize("hasAuthority('ADMINISTRADOR')")
-    public void eliminar(@PathVariable("id") Integer id){
+    public void eliminar(@PathVariable("id") Long id){
         rS.delete(id);
     }
 

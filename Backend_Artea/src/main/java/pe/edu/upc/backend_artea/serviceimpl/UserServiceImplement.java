@@ -1,4 +1,5 @@
 package pe.edu.upc.backend_artea.serviceimpl;
+import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -33,7 +34,7 @@ public class UserServiceImplement implements UserService {
     }
 
     @Override
-    public void delete(int id) {
+    public void delete(Long id) {
         uR.deleteById(id);
     }
 

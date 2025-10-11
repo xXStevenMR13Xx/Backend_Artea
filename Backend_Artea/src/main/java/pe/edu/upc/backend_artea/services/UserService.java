@@ -8,7 +8,7 @@ public interface UserService {
     public List<User> list();
     public void insert(User user);
     public void update(User user);
-    public void delete(int id);
+    public void delete(Long id);
     public List<String[]> QuantityUserByRol();
     public User findById(int id);
 }

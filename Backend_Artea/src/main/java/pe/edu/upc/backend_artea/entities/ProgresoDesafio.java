@@ -39,9 +39,9 @@ public class ProgresoDesafio {
     @JoinColumn(name="jugador_id")
     private Jugador jugador;
 
-    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @OneToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "progresoDesafio_id")
-    private List<Gamificacion> gamificacions;
+    private Gamificacion gamificacion;
 
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "progresoDesafio_id")
